@@ -31,7 +31,7 @@ public class Achievement : MonoBehaviour {
     private Gold gold;
     [SerializeField]
     private AchievementType achievementType;
-    private SpriteRenderer spriteRenderer;
+    private Texture texture;
     private Color activeColor;
     private Color inactiveColor;
 
@@ -39,7 +39,7 @@ public class Achievement : MonoBehaviour {
     {
         isActive = false;
         isShowing = false;
-        spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+        /*spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         spriteRenderer.color = parentBuilding.GetComponent<SpriteRenderer>().color;
         if (spriteRenderer.color.a != 1f)
         {
@@ -50,7 +50,7 @@ public class Achievement : MonoBehaviour {
         {
             activeColor = spriteRenderer.color;
             inactiveColor = new Color(activeColor.r, activeColor.g, activeColor.b, 0.25f);
-        }
+        }*/
         GetComponent<SpriteRenderer>().enabled = false;
         GetComponent<BoxCollider2D>().enabled = false;
         
@@ -67,12 +67,12 @@ public class Achievement : MonoBehaviour {
         if (isShowing && gold.GetTotalGold() < cost)
         {
             isShowing = false;
-            spriteRenderer.color = inactiveColor;
+            //spriteRenderer.color = inactiveColor;
         }
         else if (!isShowing && gold.GetTotalGold() >= cost)
         {
             isShowing = true;
-            spriteRenderer.color = activeColor;
+            //spriteRenderer.color = activeColor;
         }
     }
 

@@ -10,8 +10,8 @@ public class Miner : Building {
         cost = 15f;
         multiplierBonus = 1f;
         prestigeBonus = 1f;
-        //goldPerOwned = 1000f;
-        goldPerOwned = 0.1f;
+        goldPerOwned = 1000f;
+        //goldPerOwned = 0.1f;
         spriteRenderer.color = new Color(0.19922f, 0.71094f, 0.8125f, 0.25f);
         info.text = "Miner\nGenerating Per Second: " + numberConverter.ConvertNumberToString(baseGoldPerSecond * multiplierBonus * prestigeBonus, true) + "\nTotal: " + numberOwned + " Cost: " + numberConverter.ConvertNumberToString(cost);
     }
