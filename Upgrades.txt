@@ -1,0 +1,44 @@
+Upgrades Non-Building Specific:
+	Galactic Peace Treaty
+		-Opens Pacifist Route [after purchasing one Scout]
+	Galactic Arms Race
+		-Opens Warmonger Route [after purchasing one Scout]
+	Faster Than Light Communications
+		-Unlock the last 3 buildings per route and Quests [after purchasing either Trading Station or Dreadnought]
+	
+
+Upgrades Building Specific:
+	Production +25%
+		-10 buildings
+	Production +50%
+		-25 buildings
+	Production +75%
+		-50 buildings
+	Production +100%
+		-100 buildings
+	Production +200%
+		-200 buildings
+	Production +300%
+		-300 buildings
+	Production +400%
+		-400 buildings
+	Production +500%
+		-500 buildings
+	.
+	.
+	.
+	Ion Thrusters
+		-Upgrades all ships to gain +50% more base Palonium
+	Solar Wind Sails
+		-Upgrades all ships to gain +100% more base Palonium
+	Solar Shield
+		-Upgrades all buildings to gain +25% more Palonium [after FTL Comms] 
+
+Upgrades Pacifist Specific:
+	
+
+Upgrades War Monger Specific:	
+	Laser Cannons:
+		-Upgrades all ships to gain +50% more base Palonium
+	Laser Ion Cannons:
+		-Upgrades all ships to gain +100% more base Palonium

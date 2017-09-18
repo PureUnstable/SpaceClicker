@@ -1,0 +1,22 @@
+Regular:
+	Miner -
+	Freighter -
+	Scout -
+
+Pacifist:
+	Frigate -
+	Industrial Ship -
+	Trading Station -
+	Colony Probe - 
+	Colony Carrier - 
+	Terraformer -
+
+War Monger:
+	Cruiser -
+	Destroyer -
+	Dreadnought -
+	Command Ship -
+	Planet Destroyer -
+	Star Destroyer
+	
+	
